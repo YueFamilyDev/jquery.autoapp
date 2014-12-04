@@ -2,13 +2,13 @@ jquery.autoapp
 ==============
 
 功能：
-> 手机安装了自己的app就打开 没有安装就跳转到app下载页（如App store） 
-> 还可以根据URL scheme进行app内部跳转
+* 手机安装了自己的app就打开 没有安装就跳转到app下载页（如App store） 
+* 还可以根据URL scheme进行app内部跳转
 
 使用：
 ==============
 
-### 场景一：app下载按钮（以安装就打开app）
+#### 场景一：app下载按钮（以安装就打开app）
 ```html
 <a class="app-download" href="javascript:;">下载本站App</a>
 ```
@@ -22,7 +22,7 @@ $(function() {
 });
 ```
 
-### 场景二：打开app的某个界面（如果没有安装app 就跳转到下载页面）
+#### 场景二：打开app的某个界面（如果没有安装app 就跳转到下载页面）
 ```html
 <a class="app-download" href="javascript:;" data-app-argument="weixin://user/123456">查看此用户</a>
 <!-- js代码使用场景一中的即可 -->
