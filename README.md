@@ -6,8 +6,6 @@ jquery.autoapp
 * 还可以根据URL scheme进行app内部跳转
 
 ### 使用：
-==============
-
 #### 场景一：app下载按钮（以安装就打开app）
 ```html
 <a class="app-download" href="javascript:;">下载本站App</a>
